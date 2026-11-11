@@ -1,0 +1,46 @@
+{
+  "title": "Kite Chase",
+  "aspect": "16:9",
+  "style": "High-end stylized 3D cartoon render, soft subsurface lighting, rounded appealing shapes, rich saturated storybook color grade, a windy green hillside above a small seaside town, no logos, no watermark, no text in the image",
+  "music": "Fast, playful orchestral chase music with pizzicato strings and bright woodwinds, no vocals",
+  "characters": {
+    "juno": {
+      "ref_prompt": "Juno, a scruffy orange fox with a white-tipped tail, wearing a short blue scarf and round flight goggles pushed up on her forehead",
+      "description": "Juno, a scruffy orange fox in a blue scarf with flight goggles on her forehead"
+    }
+  },
+  "shots": [
+    {
+      "slug": "kite-escapes",
+      "duration": 3.0,
+      "frame_prompt": "Juno stands on a grassy hilltop holding a snapped kite string, looking up in shock as a red diamond kite sails away into a windy blue sky.",
+      "video_prompt": "The red kite whips away on the wind as Juno's ears flatten and she starts to run, no speech, no subtitles.",
+      "characters": ["juno"],
+      "sfx": {"prompt": "a taut string snapping, then a strong gust of wind", "seconds": 2.0, "at": 0.1}
+    },
+    {
+      "slug": "downhill-sprint",
+      "duration": 3.0,
+      "frame_prompt": "Side view of Juno sprinting flat out down the steep grassy hill, scarf streaming behind her, the red kite small in the sky ahead.",
+      "video_prompt": "Juno sprints downhill, the camera tracking alongside as grass blurs past, no speech, no subtitles.",
+      "characters": ["juno"]
+    },
+    {
+      "slug": "the-leap",
+      "duration": 3.0,
+      "continues": true,
+      "touchup": "a low stone wall appears directly in front of Juno, and the red kite's string now trails just above it",
+      "frame_prompt": "Juno leaps over a low stone wall, one paw stretched up toward the trailing kite string.",
+      "video_prompt": "Juno jumps the stone wall and snatches the trailing kite string out of the air, no speech, no subtitles.",
+      "characters": ["juno"],
+      "sfx": {"prompt": "a quick cartoon whoosh and a soft grassy landing thud", "seconds": 1.5, "at": 0.8}
+    },
+    {
+      "slug": "caught-it",
+      "duration": 3.0,
+      "frame_prompt": "Juno stands in the meadow at the bottom of the hill, panting and grinning, holding the kite string with both paws as the red kite flies steadily above her.",
+      "video_prompt": "Juno catches her breath and gives the string a proud tug as the kite bobs overhead, no speech, no subtitles.",
+      "characters": ["juno"]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "title": "How a Lighthouse Works",
+  "aspect": "9:16",
+  "style": "Polished 2D cel-animation cartoon, bold clean ink outlines, flat cel shading with simple hard-edged shadows, bright saturated palette, painted backgrounds of a rocky sea coast, original art, no logos, no watermark, no text in the image",
+  "music": "Gentle, curious instrumental with plucked strings and soft marimba, light and steady, no vocals",
+  "characters": {
+    "pip": {
+      "ref_prompt": "Pip, a small round friendly robot with a matte teal body, one large round amber eye-lens, short stubby legs, two thin arms and a little yellow antenna",
+      "description": "Pip, a small round teal robot with one big amber eye-lens and a yellow antenna"
+    }
+  },
+  "shots": [
+    {
+      "slug": "ship-in-the-dark",
+      "duration": 3.5,
+      "overlay_text": "ROCKS AHEAD",
+      "narration": "At night, a ship cannot see the rocks near the shore.",
+      "frame_prompt": "A wooden sailing ship on a dark sea at night, jagged black rocks just ahead of it in the water, heavy clouds, seen from high above.",
+      "video_prompt": "The ship rocks on the waves and drifts slowly toward the rocks as clouds slide past, no speech, no subtitles."
+    },
+    {
+      "slug": "the-tower",
+      "duration": 3.5,
+      "overlay_text": "THE LIGHTHOUSE",
+      "narration": "So people built a tall tower with a bright lamp at the top: a lighthouse.",
+      "frame_prompt": "A tall red-and-white striped lighthouse on a rocky cliff at dusk, seen from below. Pip stands in the foreground on the cliff path, pointing up at the dark lamp room at the top.",
+      "video_prompt": "Pip points up at the top of the tower and the lamp flickers on, no speech, no subtitles.",
+      "characters": ["pip"]
+    },
+    {
+      "slug": "the-lens",
+      "duration": 4.0,
+      "overlay_text": "THE LENS",
+      "narration": "Around the lamp sits a big glass lens that squeezes the light into one strong beam.",
+      "frame_prompt": "Inside the lamp room: a large beehive-shaped glass lens made of ringed prisms surrounds a glowing lamp. Pip stands beside it, amber eye wide, one hand resting on the brass frame.",
+      "video_prompt": "The lamp glows brighter and a single beam of light gathers and shoots out through the lens while Pip leans back, no speech, no subtitles.",
+      "characters": ["pip"]
+    },
+    {
+      "slug": "the-turn",
+      "duration": 3.5,
+      "overlay_text": "IT TURNS",
+      "narration": "The lens turns slowly, so from the sea the light seems to flash.",
+      "frame_prompt": "The lighthouse at night seen from the sea, one long beam of light reaching out over the dark water toward the left.",
+      "video_prompt": "The beam sweeps steadily across the water from left to right, no speech, no subtitles."
+    },
+    {
+      "slug": "safe-passage",
+      "duration": 3.5,
+      "overlay_text": "SAFE!",
+      "narration": "Sailors see the flash, know where the rocks are, and steer safely past.",
+      "frame_prompt": "The wooden sailing ship turning away from the black rocks, lit by the lighthouse beam. Pip stands on the cliff in the foreground, waving both arms at the ship.",
+      "video_prompt": "The ship curves away from the rocks into open water as Pip waves, no speech, no subtitles.",
+      "characters": ["pip"]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Your source photos and generated character references never get committed
+characters/*
+!characters/.gitkeep
+
+# Generated media
+runs/
+
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+*.log

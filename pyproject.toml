@@ -1,0 +1,14 @@
+[project]
+name = "video-gen-pipeline"
+version = "0.1.0"
+description = "Shot-by-shot AI video pipeline with consistent characters grounded on reference images"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "google-genai",
+    "pillow",
+    "requests",
+]
+
+[tool.uv]
+package = false
